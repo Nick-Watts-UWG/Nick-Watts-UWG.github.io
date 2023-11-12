@@ -115,3 +115,64 @@ footer {
 .QA h2 {
 	font-size: 30px;
 }
+
+#recipesTitle {
+	font-size: 34px;
+	color: rgb(97, 2, 92);
+}
+
+#recipesDesc {
+	font-size: 22px;
+	color: rgb(97, 2, 92);
+}
+
+.recipeRows {
+	margin-top: 40px;
+	display: flex;	
+	flex-direction: row;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: space-evenly;
+}
+
+.recipeColulmn {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.recipeColulmn h2 {
+	font-size: 24px;
+	color: rgb(97, 2, 92);
+}
+
+.recipeColulmn a {
+	text-decoration: none;
+	color: blue;
+}
+
+.recipeBody {
+	margin-top: 40px;
+	display: flex;	
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 60vw;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.recipeBody ul {
+	margin-bottom: 60px;
+	color: rgb(97, 2, 92);
+}
+
+.recipeBody h2 {
+	font-size: 24px;
+	color: rgb(97, 2, 92);
+}
+
+.recipeBody img {
+	width: 900px;
+	height: 500px;
+	margin-bottom: 60px;
+}
