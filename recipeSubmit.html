@@ -25,13 +25,13 @@
     </header>
 
     <div class="recipeForm">
-        <form method="POST" action="https://formsubmit.co/nw00110@westga.edu">
+        <form method="post" action="https://formsubmit.co/nw00110@my.westga.edu">
             <label for="recipeName">Recipe Name: </label> 
-            <input type="text" id="recipeName" name="recipe_Name" required>
+            <input type="text" name="recipeName" required>
             <label for="category">Recipe Category: </label> 
-            <input type="text" id="category" name="recipe_Category" required>
+            <input type="text" name="category" required>
             <label for="recipeDesc">To the best of your ability, type the recipe here: </label> 
-            <textarea name="recipe_Desc" id="recipeDesc" required rows="10" cols="20"></textarea>
+            <textarea name="recipeDesc" for="recipeDesc" required rows="10" cols="20"></textarea>
             <input type="submit" value="Submit Recipe" id="mySubmit">
         </form>
     </div>
