@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Brevity Cooking - Submit a Recipe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="brevityCooking.css" rel="stylesheet">
+  <meta name="description" content="Submit your favorite recipe to brevity cooking.">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul class="navlinks">
+            <li><a href="index.html"><img src="indexImages/logo.png" alt="logo"></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cookingfaq.html">Cooking FAQs</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+      </div>
+
+    <header>
+        <h1>Submit a Recipe</h1>
+    </header>
+
+    <div class="recipeForm">
+        <form method="post" action="https://formsubmit.co/nw00110@westga.edu" method="POST">
+            <label for="recipeName">Recipe Name: </label> 
+            <input type="text" name="recipeName" required>
+            <label for="category">Recipe Category: </label> 
+            <input type="text" name="category" required>
+            <label for="recipeDesc">To the best of your ability, type the recipe here: </label> 
+            <textarea name="recipeDesc" for="recipeDesc" required rows="10" cols="20"></textarea>
+            <input type="submit" value="Submit Recipe" id="mySubmit">
+        </form>
+    </div>
+
+    <footer>
+     Brevity Cooking<br>
+    <a href="mailto:nw00110@my.westga.edu">nw00110@my.westga.edu</a>
+    </footer>
+
+</body>
+
+</html>
